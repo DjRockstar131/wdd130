@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #06AED5;  /* Pacific Cyan */
+    --secondary-color: #FFAD05;  /* Orange */
+    --accent1-color: #3B413C;  /* Black Olive */
+    --accent2-color: #D6F8D6;  /* Nyanza */
+}
+
+/* Global font color and basic typography */
+body {
+    font-family: Arial, sans-serif;
+    color: var(--accent1-color);  /* Default text color */
+    max-width: 1200px;  /* Limit the width of the page */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+/* Paragraph styles */
+p {
+    color: var(--secondary-color);
+}
+
+/* Social media hyperlinks without underlines */
+.social-media-links a {
+    text-decoration: none;
+}
+
+/* Hero image styling */
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto; /* Image fits within the container width */
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    color: var(--accent2-color);
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 15px;
+    max-width: 600px;
+}
+
+/* Floated image inside article */
+.hero article img {
+    float: right;
+    margin: 0 0 10px 20px;
+}

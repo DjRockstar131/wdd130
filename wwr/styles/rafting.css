@@ -112,38 +112,46 @@ p {
     margin: auto;
 }
 
-
 .adventures {
-    display: flex;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: space-between;
-    gap: 20px;
     margin: 20px 0;
-    text-align: center;
-}
-.adventures h2 {
     text-align: center; /* Center the section title */
-    font-size: 2rem; /* Adjust the font size of the title */
+}
+
+.adventures h2 {
+    font-size: 2rem;
     margin-bottom: 20px; /* Space below the title */
 }
-.adventures figure {
-    text-align: center;
-    flex: 1;
+
+/* Container for images */
+.adventure-images {
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+    overflow-x: auto; 
+    padding-bottom: 20px; 
+}
+/* Styling for each figure */
+.adventure-images figure {
+    text-align: center; 
+    flex: 0 0 auto; 
+    width: 18%; 
 }
 
-.adventures img {
+/* Image styling */
+.adventure-images img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.adventures figcaption {
+/* Caption styling */
+.adventure-images figcaption {
     margin-top: 10px;
     font-size: 1rem;
     font-style: italic;
     color: #555;
-    text-align: center;
 }
+
 
 footer {
     display: flex;

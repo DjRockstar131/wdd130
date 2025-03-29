@@ -121,7 +121,11 @@ p {
     margin: 20px 0;
     text-align: center;
 }
-
+.adventures h2 {
+    text-align: center; /* Center the section title */
+    font-size: 2rem; /* Adjust the font size of the title */
+    margin-bottom: 20px; /* Space below the title */
+}
 .adventures figure {
     text-align: center;
     flex: 1;
@@ -139,11 +143,6 @@ p {
     font-style: italic;
     color: #555;
     text-align: center;
-}
-.adventures h2 {
-    text-align: center; /* Center the section title */
-    font-size: 2rem; /* Adjust the font size of the title */
-    margin-bottom: 20px; /* Space below the title */
 }
 
 footer {

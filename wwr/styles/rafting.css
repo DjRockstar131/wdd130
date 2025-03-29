@@ -94,7 +94,25 @@ p {
     float: right;
     margin: 0 0 10px 20px;
 }
+article {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    margin: 20px 0;
+}
 
+/* Image Styling in the Article */
+article img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+/* Text Styling */
+article p {
+    flex: 1; 
+    font-size: 1rem; 
+    line-height: 1.5; 
+}
 /* History Section Styling */
 .history {
     margin: 20px 0;

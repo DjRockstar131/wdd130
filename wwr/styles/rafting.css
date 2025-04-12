@@ -78,6 +78,8 @@ p {
     top: 30%;
     left: 20px;
     color: var(--accent2-color);
+    color: white; /* Bright, high-contrast color */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Dark shadow for readability */
 }
 
 .hero article {
